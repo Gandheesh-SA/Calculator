@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0xFF0C0C0C),
         appBar: AppBar(
-          backgroundColor: Color(0xFFfc8eac),
+          backgroundColor: Color(0xFF0C0C0C),
           title: Text('Calculator'),
           centerTitle: true,
           actions: [
